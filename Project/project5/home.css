@@ -1,0 +1,81 @@
+header {
+    background-color: #550c18 ;
+}
+
+@font-face {
+  font-family: "title" ; 
+  src: url(../fonts/Audiowide-Regular.ttf); 
+}
+
+@font-face {
+    font-family: "general";
+    src: url(../fonts/VT323-Regular.ttf);
+}
+
+ .parent-container {
+    display: flex;
+    gap: 40% ;
+    align-items: flex-start;
+ }
+
+.flex-container-one {
+    width: 560px;
+  height: 268px;
+  background-color:#c6ac8f ;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+}
+
+.flex-container-two {
+  background-color: #c6ac8f;
+  margin: 10px;
+  padding: 20px;
+  justify-content: center;
+}
+
+h1 {
+    font-family: "title";
+    color: #eae0d5;
+    text-align: center;
+    
+}
+
+h3{
+    position: relative;
+    left: 10px;
+    font-family: "general";
+}
+
+h2{
+    font-family: "title";
+    color: #550c18;
+}
+
+p{
+    font-family: "general";
+    color: #58658c;
+}
+
+a:link {
+  color: #eae0d5;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body{
+    background-color: #545e56
+}
+
+footer {
+    background-color: #550c18;
+}
+
+    
+    
