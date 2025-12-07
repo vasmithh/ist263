@@ -33,6 +33,11 @@ p{
     color: #58658c;
 }
 
+ul{
+    font-family: "general";
+    color:#58658c
+}
+
 a:link {
   color: #eae0d5;
   background-color: transparent;
