@@ -33,9 +33,9 @@ p{
     color: #58658c;
 }
 
-ul{
+dl{
     font-family: "general";
-    color:#58658c
+    color:#58658c 
 }
 
 a:link {
@@ -50,6 +50,13 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
   font-family: "general";
+}
+
+a:visited {
+    color: #58658c;
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: "general";
 }
 
 @font-face {
