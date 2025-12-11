@@ -19,14 +19,7 @@
             document.getElementById("first").style.order = Math.floor((Math.random()*3) + 2);
         }
     </script>
-    <style>
-        .container {
-            display: flex;
-        }
-        #first {order: 1;}
-        #second {order: 2;}
-        #third {order:3;}
-    </style>
+    
 </head>
 <body onload="ShuffleShells();">
     <h1>Choose a Walnut</h1>
@@ -36,5 +29,13 @@
         <img src="./Lab 12_files/walnut.png" id="third" alt="third walnut" class="third" onclick="TryAgain();">
     </div>
     <div id="messages"></div>
+    <style>
+        .container {
+            display: flex;
+        }
+        #first {order: 1;}
+        #second {order: 2;}
+        #third {order:3;}
+    </style>
 </body>
 </html>
