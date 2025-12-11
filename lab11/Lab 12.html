@@ -9,13 +9,18 @@
     <title>Lab 11</title>
     <link rel="stylesheet" href="./Lab 12_files/animate.css">
     <script>
-        alert('You won!');
+        function WinnerMessage () {
+            alert('You won!');
+        }
+        function TryAgain () {
+            alert('WrongShell-Try Again')
+        }
     </script>
 </head>
 <body>
     <h1>Choose a Walnut</h1>
-    <img src="./Lab 12_files/walnut.png" alt="first walnut" class="first">
-    <img src="./Lab 12_files/walnut.png" alt="second walnut" class="second">
-    <img src="./Lab 12_files/walnut.png" alt="third walnut" class="third">
+    <img src="./Lab 12_files/walnut.png" alt="first walnut" class="first" onclick="WinnerMessage();">
+    <img src="./Lab 12_files/walnut.png" alt="second walnut" class="second" onclick="TryAgain();">
+    <img src="./Lab 12_files/walnut.png" alt="third walnut" class="third" onclick="TryAgain();">
 
 </body></html>
